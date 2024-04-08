@@ -1,0 +1,402 @@
+/* すべてのページに適用される設定 */
+html {
+    font-size: 1rem;
+    font-family: fot-tsukuaoldmin-pr6n, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #a9a9a9;
+    text-decoration: underline;
+}
+a:active {
+    color: #fff872;
+    text-decoration: underline;
+}
+
+
+
+/* すべてのページに適用 - ヘッダー */
+
+header {
+    display:flex;
+    background-color: #002145;
+    width: 100%;
+    height: 7rem;
+}
+
+.headerlogo {
+    margin: auto;
+    width: 300px;
+    flex-shrink: 0;
+    
+}
+
+nav {
+    align-items: center;
+    display: flex;
+}
+
+nav ul{
+    
+    font-size: 1.5rem;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+
+/* すべてのページに適用 - ヒーロー */
+
+.main-img {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "a-otf-ud-reimin-pr6n", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    width: 100%;
+    padding: 60px 0;
+}
+
+/* すべてのページに適用 - メイン */
+
+main {
+    margin: 90px auto 90px auto;
+    max-width: 1000px;
+}
+
+.aboutus-text {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2rem;
+    color: #666666;
+    margin: 60px 0 20px 0;
+    border-bottom: 1px solid #666666;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 0 0 5px 0;
+    text-align: center;
+    margin-top: 0;
+    width: 35%;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icon {
+    text-align: center;
+}
+
+/* すべてのページに適用 - フッター */
+
+/* 個別のスタイル */
+
+.text{
+    padding: 20px;
+}
+
+h3{
+    font-family: toppan-bunkyu-midashi-go-std, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 50%;
+}
+
+.subtitle {
+    font-family: toppan-bunkyu-midashi-go-std, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+    
+    color: #fff;
+    text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+    color: #fff;
+    
+    text-align: center;
+}
+
+.content img {
+    width: 60px;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+}
+
+.shop-info {
+    border-collapse: collapse;
+}
+
+.shop-info th, .shop-info td {
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+}
+.shop-info th {
+    width: 112px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.mapinfo {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.parallax_content{
+    min-height: 7em;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .front_content{
+    background-color: #fff;
+  }
+  .parallax_content.img_bg_01{
+    background-image: url(../images/parallax_background.jpg);
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+  .parallax_content.img_bg_02{
+    background-image: url(../images/parallax_background.jpg);
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+  .parallax_content.img_bg_03{
+    background-image: url(../images/parallax_background.jpg);
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+
+
+
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #002145;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* index.html */
+
+/* menu.html */
+.items {
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item img {
+    width: 75px;
+}
+
+
+/* モバイル対応 */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 4%;
+    }
+    nav ul{    
+        width: 100%;
+        justify-content: center;
+    }
+    .mapinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    h1.hero {
+        font-size: 2rem;
+    }
+    table {
+        text-align: center;
+        vertical-align: middle;
+    }
+    iframe {
+        height: 200px;
+        width: 300px;
+    }
+    header {
+        display: block;
+    }
+    .headerlogo {
+        padding-top: 5px;
+    }
+    h6 {
+        font-size: 2.1rem;
+    }
+    h2 {
+        font-family: 'Kaisei Tokumin', serif;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 2rem;
+        color: #666666;
+        margin: 60px 0 20px 0;
+        border-bottom: 1px solid #666666;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 5px 0;
+        text-align: center;
+        margin-top: 0;
+        width: 75%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+  }
+  
+  @media(max-width: 480px) {
+    header {
+        padding-top: 10px;
+    }
+
+    .headerlogo {
+        padding-top: 15px;
+        align-items: center;
+        width: 70%;
+        flex-shrink: 0;
+    }
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        gap: 11px;
+        justify-content: center;
+    }
+    nav li{
+        font-size: 1rem;
+
+    }
+    .hero {
+        padding: 0 4%;
+    }
+    main {
+        padding: 0 4%;
+    }
+    .mapinfo {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    table {
+        text-align: center;
+        vertical-align: middle;
+    }
+    iframe {
+        height: 200px;
+        width: 300px;
+    }
+    h6 {
+        padding:1rem 0;
+    }
+    h2 {
+        font-family: 'Kaisei Tokumin', serif;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 2rem;
+        color: #666666;
+        margin: 60px 0 20px 0;
+        border-bottom: 1px solid #666666;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 5px 0;
+        text-align: center;
+        margin-top: 0;
+        width: 75%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
+    .br::after {
+        content: "\A";
+        white-space: pre;
+    }
+    .parallax_content{ 
+     height: 10rem;
+  }
+  }
+/* border: 1px solid red; */
