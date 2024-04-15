@@ -43,17 +43,18 @@ a:active {
 /* すべてのページに適用 - ヘッダー */
 
 header {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #002145;
     width: 100%;
     height: 7rem;
 }
 
 .headerlogo {
-    margin: auto;
+    margin-right: auto;
     width: 300px;
     flex-shrink: 0;
-    
 }
 
 nav {
@@ -289,6 +290,7 @@ h5 {
         display: block;
     }
     .headerlogo {
+        margin: auto;
         padding-top: 5px;
     }
     h6 {
@@ -350,16 +352,17 @@ h5 {
         padding: 0 4%;
     }
     .mapinfo {
-        display: inline-block;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         font-size: 0.8rem;
     }
     table {
-        text-align: center;
-        vertical-align: middle;
+        margin: auto;
     }
     iframe {
+        margin: auto;
         height: 200px;
         width: 300px;
     }
